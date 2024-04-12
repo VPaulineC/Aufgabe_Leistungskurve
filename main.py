@@ -13,7 +13,6 @@ sorted_PowerOriginal = bubble_sort(PowerOriginal)
 
 # Leistungskurve anzeigen
 plt.plot(PowerOriginal[::-1])
-plt.show()
 
 
 if not os.path.exists("figures"):
