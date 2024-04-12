@@ -1,5 +1,3 @@
-from main_c import data
-
 def bubble_sort(arr):
     n = len(arr)
     for i in range(n):
@@ -8,23 +6,3 @@ def bubble_sort(arr):
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
     return arr
 
-# Daten aus der CSV-Datei in eine Liste laden
-rows = []  # Hier sollten Ihre Daten stehen
-sorted_rows = bubble_sort(rows)
-
-# Sortierte Daten ausgeben
-for data in sorted_rows:
-    print(data)
-
-#oder:
-#def bubble_sort(arr):
-    #arr_len = len(arr)
-    #for i in range(arr_len-1):
-        #flag = 0
-        #for j in range(0, arr_len-i-1):
-            #if arr[j] > arr[j+1]:
-                #arr[j+1], arr[j] = arr[j], arr[j+1]
-                #flag = 1
-                #if flag == 0:
-                    #break
-    #return arr
