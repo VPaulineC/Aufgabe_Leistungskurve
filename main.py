@@ -12,7 +12,7 @@ PowerOriginal = data["PowerOriginal"]
 sorted_PowerOriginal = bubble_sort(PowerOriginal)
 
 # Leistungskurve anzeigen
-plt.plot(PowerOriginal[::-1])
+plt.plot(sorted_PowerOriginal[::-1])
 
 # Ordner für Grafik erstellen und speichern der Grafik
 if not os.path.exists("figures"):
