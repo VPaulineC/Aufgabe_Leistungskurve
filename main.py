@@ -18,7 +18,7 @@ plt.plot(minuten_PowerOriginal[::-1])
 # Plot beschriftung
 plt.grid(True)
 plt.ylabel("PowerOriginal")
-plt.xlabel("Sekunden")
+plt.xlabel("Minuten")
 
 # Ordner für Grafik erstellen und speichern der Grafik
 # Hilfestellung: https://stackoverflow.com/questions/11373610/save-matplotlib-file-to-a-directory
