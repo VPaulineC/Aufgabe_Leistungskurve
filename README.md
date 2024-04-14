@@ -18,4 +18,4 @@ Für die Ausführung der main.py müssen folgende Pakete mit
  Die Daten aus der CSV-Datei werden in load_data.py geladen und in main.py mit **from load_data import load_data** importiert.
 
 # Verwendung
-Aus einer CSV_Datei hier **activity.csv** wird der Datensatz "PowerOriginal" geladen und nach main.py importiert. Im Hauptprogramm wird der Datensatz gelesen, mit matplotlib ein Plot erstellt, mit OS ein Ordner "figures" erstellt und die Grafik als .png abgespeichert.
+Aus einer CSV_Datei hier **activity.csv** wird der Datensatz "PowerOriginal" geladen und nach main.py importiert. Im Hauptprogramm wird der Datensatz gelesen, in Minuten dargestellt, mit matplotlib ein Plot erstellt, mit OS ein Ordner "figures" erstellt und die Grafik als .png abgespeichert.
