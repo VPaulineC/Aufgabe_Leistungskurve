@@ -12,9 +12,16 @@ PowerOriginal = data["PowerOriginal"]
 sorted_PowerOriginal = bubble_sort(PowerOriginal)
 
 # Leistungskurve anzeigen
-plt.plot(sorted_PowerOriginal[::-1])
+plt.plot(PowerOriginal[::-1])
+
+# Plot beschriftung
+plt.grid(True)
+plt.ylabel("PowerOriginal")
+plt.xlabel("Sekunden")
 
 # Ordner für Grafik erstellen und speichern der Grafik
+# Hilfestellung: https://stackoverflow.com/questions/11373610/save-matplotlib-file-to-a-directory
+
 if not os.path.exists("figures"):
     os.makedirs("figures")
 
