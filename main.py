@@ -11,8 +11,9 @@ PowerOriginal = data["PowerOriginal"]
 # Daten sortieren
 sorted_PowerOriginal = bubble_sort(PowerOriginal)
 
-# Leistungskurve anzeigen
-plt.plot(PowerOriginal[::-1])
+# Datensatz in Minuten umwandeln und Leistungskurve anzeigen
+minuten_PowerOriginal=sorted_PowerOriginal[::60]
+plt.plot(minuten_PowerOriginal[::-1])
 
 # Plot beschriftung
 plt.grid(True)
